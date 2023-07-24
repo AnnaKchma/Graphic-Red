@@ -2,8 +2,8 @@ class Circle extends Shape {
     private double radius;
 
     public Circle(double radius) {
+        super("Circle");
         this.radius = radius;
-        this.name = "Circle";
     }
 
     public double getRadius() {
@@ -13,5 +13,8 @@ class Circle extends Shape {
     @Override
     public String getName() {
         return name;
+    }
+
+    public void draw() {
     }
 }
