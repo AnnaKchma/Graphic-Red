@@ -1,5 +1,5 @@
 public class ShapeTitlePrinter {
-    public void printTitle(Shape shape) {
+    public static void printTitle(Shape shape) {
         System.out.println("Shape: " + shape.getName());
     }
 }
