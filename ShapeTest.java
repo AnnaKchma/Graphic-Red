@@ -5,11 +5,6 @@ public class ShapeTest {
         Triangle triangle = new Triangle(6.0, 8.0);
         Rectangle rectangle = new Rectangle(4.0, 7.0);
 
-        circle.draw();
-        quad.draw();
-        triangle.draw();
-        rectangle.draw();
-
         ShapeTitlePrinter.printTitle(circle);
         ShapeTitlePrinter.printTitle(quad);
         ShapeTitlePrinter.printTitle(triangle);
